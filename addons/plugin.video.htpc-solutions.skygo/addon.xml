@@ -1,7 +1,7 @@
 <addon id="plugin.video.htpc-solutions.skygo" name="Sky Go Client" version="0.0.1" provider-name="HTPC Solutions">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.module.htpcsolutions" version="0.0.1"/>
+		<import addon="script.module.htpc-solutions" version="0.0.1"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="plugin.py">
 		<provides>video</provides>
@@ -14,7 +14,7 @@
 		<platform>all</platform>
 		<website>http://htpc.solutions/</website>
 		<source>https://github.com/htpcsolutions/plugin.video.htpc-solutions.skygo</source>
-		<forum>http://forum.xbmc.org/showthread.php?tid=138745</forum>
+		<forum></forum>
 		<email>support@htpc.solutions</email>    
 	</extension>
 </addon>
