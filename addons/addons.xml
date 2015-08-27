@@ -5,10 +5,10 @@
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.htpcsolutions" version="0.0.1"/>
 	</requires>
-	<extension point="xbmc.service" library="service.py" start="login" />
 	<extension point="xbmc.python.pluginsource" library="plugin.py">
 		<provides>video</provides>
 	</extension>
+	<extension point="xbmc.service" library="service.py" start="login" />
 	<extension point="xbmc.addon.metadata" name="htpc-solutions.skygo.metadata">
 		<language></language>
 		<summary lang="en">Sky Go Client</summary>
@@ -26,10 +26,10 @@
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.htpcsolutions" version="0.0.1"/>
 	</requires>
-	<extension point="xbmc.service" library="service.py" start="login" />
 	<extension point="xbmc.python.pluginsource" library="plugin.py">
 		<provides>video</provides>
 	</extension>
+	<extension point="xbmc.service" library="service.py" start="login" />
 	<extension point="xbmc.addon.metadata" name="htpc-solutions.skygo.metadata">
 		<language></language>
 		<summary lang="en">Sling Client</summary>
@@ -42,14 +42,14 @@
 	</extension>
 </addon>
 
-<addon id="repository.htpcs" version="0.0.1" name="HTPC Solutions Repository" provider-name="HTPC Solutions">
+<addon id="repository.htpc-solutions" version="0.0.1" name="HTPC Solutions Repository" provider-name="HTPC Solutions">
 	<extension point="xbmc.addon.repository" name="HTPC Solutions Repository">
-		<info compressed="false">https://raw.githubusercontent.com/htpcsolutions/repository.htpcs/master/addon.xml</info>
-		<checksum>https://raw.githubusercontent.com/htpcsolutions/repository.htpcs/master/addon.xml.md5</checksum>
-		<datadir zip="true">https://raw.github.com/htpcsolutions/repository.htpcs/master/downloads/</datadir>
+		<info compressed="false">https://raw.githubusercontent.com/htpcsolutions/downloads/master/addons/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/htpcsolutions/downloads/master/addons/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.github.com/htpcsolutions/downloads/master/addons/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>HTPCS</summary>
+		<summary>HTPC Solutions</summary>
 		<description>Every XBMC \ Kodi addon developed by HTPC Solutions.</description>
 		<platform>all</platform>
 	</extension>
