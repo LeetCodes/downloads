@@ -1,4 +1,6 @@
-<addons><addon id="plugin.video.htpc-solutions.skygo" name="Sky Go Client" version="0.0.1" provider-name="HTPC Solutions">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.htpc-solutions.skygo" name="Sky Go Client" version="0.0.1" provider-name="HTPC Solutions">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.htpc-solutions" version="0.0.1"/>
@@ -17,7 +19,8 @@
 		<forum/>
 		<email>support@htpc.solutions</email>    
 	</extension>
-</addon><addon id="plugin.video.htpc-solutions.sling" name="Sling Client" version="0.2.0" provider-name="HTPC Solutions">
+</addon>
+<addon id="plugin.video.htpc-solutions.sling" name="Sling Client" version="0.2.0" provider-name="HTPC Solutions">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.htpc-solutions" version="0.0.1"/>
@@ -36,7 +39,8 @@
 		<forum/>
 		<email>support@htpc.solutions</email>    
 	</extension>
-</addon><addon id="repository.htpc-solutions" version="0.0.1" name="HTPC Solutions Repository" provider-name="HTPC Solutions">
+</addon>
+<addon id="repository.htpc-solutions" version="0.0.1" name="HTPC Solutions Repository" provider-name="HTPC Solutions">
 	<extension point="xbmc.addon.repository" name="HTPC Solutions Repository">
 		<info compressed="false">https://raw.githubusercontent.com/htpcsolutions/downloads/master/addons/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/htpcsolutions/downloads/master/addons/addons.xml.md5</checksum>
@@ -47,7 +51,8 @@
 		<description>Every XBMC \ Kodi addon developed by HTPC Solutions.</description>
 		<platform>all</platform>
 	</extension>
-</addon><addon id="script.module.boto3" name="Boto3" version="1.1.1" provider-name="Boto">
+</addon>
+<addon id="script.module.boto3" name="Boto3" version="1.1.1" provider-name="Boto">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.dateutil" version="2.4.2"/>
@@ -64,7 +69,8 @@
 		<forum>http://forum.xbmc.org/showthread.php?tid=138745</forum>
 		<email>support@htpc.solutions</email>    
 	</extension>
-</addon><addon id="script.module.htpcsolutions" name="HTPC Solutions" version="0.0.1" provider-name="HTPC Solutions">
+</addon>
+<addon id="script.module.htpcsolutions" name="HTPC Solutions" version="0.0.1" provider-name="HTPC Solutions">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.boto3" version="1.1.1"/>
@@ -81,7 +87,8 @@
 		<forum>http://forum.xbmc.org/showthread.php?tid=138745</forum>
 		<email>support@htpc.solutions</email>    
 	</extension>
-</addon><addon id="script.module.tinydb" name="TinyDB" version="2.3.2" provider-name="Markus Siemens">
+</addon>
+<addon id="script.module.tinydb" name="TinyDB" version="2.3.2" provider-name="Markus Siemens">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -97,4 +104,5 @@
     <source>https://github.com/htpcsolutions/script.module.tinydb</source>
     <email/>
   </extension>
-</addon></addons>
+</addon>
+<addons>
