@@ -20,7 +20,6 @@
 		<email>support@htpc.solutions</email>    
 	</extension>
 </addon>
-
 <addon id="plugin.video.htpc-solutions.sling" name="Sling Client" version="0.2.0" provider-name="HTPC Solutions">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -41,7 +40,6 @@
 		<email>support@htpc.solutions</email>    
 	</extension>
 </addon>
-
 <addon id="repository.htpc-solutions" version="0.0.1" name="HTPC Solutions Repository" provider-name="HTPC Solutions">
 	<extension point="xbmc.addon.repository" name="HTPC Solutions Repository">
 		<info compressed="false">https://raw.githubusercontent.com/htpcsolutions/downloads/master/addons/addons.xml</info>
@@ -54,7 +52,6 @@
 		<platform>all</platform>
 	</extension>
 </addon>
-
 <addon id="script.module.boto3" name="Boto3" version="1.1.1" provider-name="Boto">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -73,7 +70,6 @@
 		<email>support@htpc.solutions</email>    
 	</extension>
 </addon>
-
 <addon id="script.module.htpcsolutions" name="HTPC Solutions" version="0.0.1" provider-name="HTPC Solutions">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -92,7 +88,6 @@
 		<email>support@htpc.solutions</email>    
 	</extension>
 </addon>
-
 <addon id="script.module.tinydb" name="TinyDB" version="2.3.2" provider-name="Markus Siemens">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
