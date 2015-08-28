@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.htpc-solutions.skygo" name="Sky Go Client" version="0.0.1" provider-name="HTPC Solutions">
+<addon id="plugin.video.htpc-solutions.skygo" name="Sky Go Client" version="0.0.2" provider-name="HTPC Solutions">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.htpc-solutions" version="0.0.1"/>
@@ -49,7 +49,7 @@
 		<datadir zip="true">https://raw.github.com/htpcsolutions/downloads/master/addons/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>HTPC Solutions</summary>
+		<summary>Install Add-ons from HTPC Solutions</summary>
 		<description>Every XBMC \ Kodi addon developed by HTPC Solutions.</description>
 		<platform>all</platform>
 	</extension>

@@ -6,7 +6,7 @@
 		<datadir zip="true">https://raw.github.com/htpcsolutions/downloads/master/addons/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>HTPC Solutions</summary>
+		<summary>Install Add-ons from HTPC Solutions</summary>
 		<description>Every XBMC \ Kodi addon developed by HTPC Solutions.</description>
 		<platform>all</platform>
 	</extension>
