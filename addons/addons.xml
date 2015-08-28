@@ -17,7 +17,7 @@
 		<website>http://htpc.solutions/</website>
 		<source>https://github.com/htpcsolutions/plugin.video.htpc-solutions.skygo</source>
 		<forum/>
-		<email>support@htpc.solutions</email>    
+		<email>support@htpc.solutions</email>
 	</extension>
 </addon>
 
@@ -38,7 +38,7 @@
 		<website>http://htpc.solutions/</website>
 		<source>https://github.com/htpcsolutions/plugin.video.htpc-solutions.sling</source>
 		<forum/>
-		<email>support@htpc.solutions</email>    
+		<email>support@htpc.solutions</email>
 	</extension>
 </addon>
 
@@ -70,7 +70,7 @@
 		<website>http://htpc.solutions/</website>
 		<source>https://github.com/htpcsolutions/script.module.boto3</source>
 		<forum>http://forum.xbmc.org/showthread.php?tid=138745</forum>
-		<email>support@htpc.solutions</email>    
+		<email>support@htpc.solutions</email>
 	</extension>
 </addon>
 
@@ -89,7 +89,7 @@
 		<website>http://htpc.solutions/</website>
 		<source>https://github.com/htpcsolutions/script.module.htpcsolutions</source>
 		<forum>http://forum.xbmc.org/showthread.php?tid=138745</forum>
-		<email>support@htpc.solutions</email>    
+		<email>support@htpc.solutions</email>
 	</extension>
 </addon>
 
@@ -110,6 +110,5 @@
     <email/>
   </extension>
 </addon>
-
 
 </addons>
