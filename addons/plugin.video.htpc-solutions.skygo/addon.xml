@@ -1,4 +1,4 @@
-<addon id="plugin.video.htpc-solutions.skygo" name="Sky Go Client" version="0.0.6" provider-name="HTPC Solutions">
+<addon id="plugin.video.htpc-solutions.skygo" name="Sky Go Client" version="0.0.7" provider-name="HTPC Solutions">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.htpc-solutions" version="0.0.1"/>
