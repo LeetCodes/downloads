@@ -1,25 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.htpc-solutions.commander" name="Commander" version="0.0.1" provider-name="HTPC Solutions">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.htpc-solutions" version="0.0.1"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="plugin.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata" name="htpc-solutions.sling.metadata">
-    <language/>
-    <summary lang="en">Commander</summary>
-    <description lang="en"/>
-    <platform>all</platform>
-    <website>http://htpc.solutions/</website>
-    <source>https://github.com/htpcsolutions/plugin.video.htpc-solutions.command</source>
-    <forum/>
-    <email>support@htpc.solutions</email>
-  </extension>
-</addon>
-
 <addon id="plugin.video.htpc-solutions.skygo" name="Sky Go Client" version="0.0.5" provider-name="HTPC Solutions">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -73,6 +53,26 @@
 		<description>Every XBMC \ Kodi addon developed by HTPC Solutions.</description>
 		<platform>all</platform>
 	</extension>
+</addon>
+
+<addon id="script.htpc-solutions.commander" name="Commander" version="0.0.1" provider-name="HTPC Solutions">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.htpc-solutions" version="0.0.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="plugin.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata" name="htpc-solutions.sling.metadata">
+    <language/>
+    <summary lang="en">Commander</summary>
+    <description lang="en"/>
+    <platform>all</platform>
+    <website>http://htpc.solutions/</website>
+    <source>https://github.com/htpcsolutions/script.htpc-solutions.commander</source>
+    <forum/>
+    <email>support@htpc.solutions</email>
+  </extension>
 </addon>
 
 <addon id="script.module.boto3" name="Boto3" version="1.1.1" provider-name="Boto">
