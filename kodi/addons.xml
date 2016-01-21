@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.htpc-solutions.skygo" name="Sky Go Client" version="0.1.1" provider-name="HTPC Solutions">
+<addon id="plugin.video.htpc-solutions.skygo" name="Sky Go Client" version="0.1.0" provider-name="HTPC Solutions">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.htpc-solutions" version="0.0.3"/>
+    <import addon="script.module.htpc-solutions" version="0.0.1"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="plugin.py">
     <provides>video</provides>
@@ -21,10 +21,10 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.htpc-solutions.sling" name="Sling Client" version="0.3.3" provider-name="HTPC Solutions">
+<addon id="plugin.video.htpc-solutions.sling" name="Sling Client" version="0.3.2" provider-name="HTPC Solutions">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.htpc-solutions" version="0.0.3"/>
+    <import addon="script.module.htpc-solutions" version="0.0.1"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="plugin.py">
     <provides>video</provides>
@@ -42,16 +42,15 @@
   </extension>
 </addon>
 
-<addon id="program.htpc-solutions.commander" name="Commander" version="0.0.4" provider-name="HTPC Solutions">
+<addon id="program.htpc-solutions.commander" name="Commander" version="0.0.3" provider-name="HTPC Solutions">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.htpc-solutions" version="0.0.3"/>
+    <import addon="script.module.htpc-solutions" version="0.0.1"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="plugin.py">
     <provides>executable</provides>
   </extension>
-  <extension point="xbmc.service" library="service.py" start="login"/>
-  <extension point="xbmc.addon.metadata" name="htpc-solutions.commander.metadata">
+  <extension point="xbmc.addon.metadata" name="htpc-solutions.sling.metadata">
     <language/>
     <summary lang="en">Utility for launching external commands</summary>
     <description lang="en"/>
@@ -95,7 +94,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.htpc-solutions" name="HTPC Solutions" version="0.0.3" provider-name="HTPC Solutions">
+<addon id="script.module.htpc-solutions" name="HTPC Solutions" version="0.0.2" provider-name="HTPC Solutions">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.boto3" version="1.1.1"/>
